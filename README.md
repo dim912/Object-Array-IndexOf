@@ -34,7 +34,7 @@ Only a set of properties of the parameter object, is matched with objects in arr
 ```sh
 npm install objectarrayindexof
 ```
-### How to use
+### How To
 
 ```javascript
 var objectarrayindexof = require('objectarrayindexof')
@@ -61,7 +61,7 @@ var arr = [
     }
    ]
  
-//Example - firstIndexOf method
+// firstIndexOf 
 objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" })
 //Return => 1
 objectarrayindexof.firstIndexOf(arr, { "a": "1" })
@@ -69,7 +69,7 @@ objectarrayindexof.firstIndexOf(arr, { "a": "1" })
 objectarrayindexof.firstIndexOf(arr, { "b": "8" }) 
 //Return => -1
 
-//Example - allIndexesOf method
+// allIndexesOf 
 objectarrayindexof.allIndexesOf(arr, { "a": "5", "b": "2" }) 
 //Return => [1]
 objectarrayindexof.allIndexesOf(arr, { "a": "1" })
@@ -77,7 +77,7 @@ objectarrayindexof.allIndexesOf(arr, { "a": "1" })
 objectarrayindexof.allIndexesOf(arr, { "b": "8" }) 
 //Return => []
 
-//Example - lastIndexOf method
+// lastIndexOf 
 objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" })
 //Return => 1
 objectarrayindexof.lastIndexOf(arr, { "a": "1" })
@@ -85,14 +85,9 @@ objectarrayindexof.lastIndexOf(arr, { "a": "1" })
 objectarrayindexof.lastIndexOf(arr, { "b": "8" }) 
 //Return => -1
 
-//Example - nthIndexOf method
-objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" },2)
-//Return => -1
-objectarrayindexof.lastIndexOf(arr, { "b": "2" })
-//Return => 2
-objectarrayindexof.lastIndexOf(arr, { "b": "8" }) 
-//Return => -1
-
+// nthIndexOf 
+objectarrayindexof.nthIndexOf(arr, { "b": "7" }, 2)
+//Return => 4
 
 //Example Selective match
 objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" }, ["b"])
