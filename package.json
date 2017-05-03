@@ -1,0 +1,35 @@
+{
+  "name": "objectarrayindexof",
+  "version": "1.0.0",
+  "description": "Get Indexes of an Object in an Object Array",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dim912/Object-Array-IndexOf.git"
+  },
+  "keywords": [
+    "Arrayindexeof",
+    "IndexOfObject",
+    "Object",
+    "Array",
+    "IndexOf",
+    "ObjArr",
+    "ObjArray"
+  ],
+  "author": "Dimuthu Senanayaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dim912/Object-Array-IndexOf/issues"
+  },
+  "homepage": "https://github.com/dim912/Object-Array-IndexOf#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
