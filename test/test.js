@@ -143,6 +143,11 @@ describe("Documentation", function () {
         var res10 = objectarrayindexof.nthIndexOf(arr, { "b": "7" }, 2)
         //Return => 4
 
+        //Example Selective match
+        var arr11 = objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" }, ["b"])
+        //Result=> 0 . 
+        var arr12 = objectarrayindexof.firstIndexOf(arr, { "b": "2" })
+
         expect(res1).to.deep.equal(1)
         expect(res2).to.deep.equal(0)
         expect(res3).to.deep.equal(-1)
@@ -157,6 +162,9 @@ describe("Documentation", function () {
 
         expect(res10).to.deep.equal(4)
 
+        expect(arr11).to.deep.equal(0)
+        expect(arr12).to.deep.equal(0)
+        expect(arr13).to.deep.equal(1)
 
     })
 })
