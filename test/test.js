@@ -86,3 +86,77 @@ describe("allIndexesOf function", function () {
     });
 
 });
+
+
+var arr = [
+    {
+        "a": "1",
+        "b": "2"
+    },
+    {
+        "a": "5",
+        "b": "2"
+    },
+    {
+        "a": "1",
+        "b": "2"
+    },
+    {
+        "b": "7"
+    },
+    {
+        "a": "3",
+        "b": "7"
+    }
+]
+
+
+describe("Documentation", function () {
+
+    //Example - firstIndexOf method 
+    it("with out keys positive", function () {
+
+        var res1 = objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" })
+        //Return => 1 
+        var res2 = objectarrayindexof.firstIndexOf(arr, { "a": "1" })
+        //Return => 0 
+        var res3 = objectarrayindexof.firstIndexOf(arr, { "b": "8" })
+        //Return => -1 
+
+        // Example - lastIndexOf method 
+        var res4 = objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" })
+        //Return => 1 
+        var res5 = objectarrayindexof.lastIndexOf(arr, { "a": "1" })
+        //Return => 2 
+        var res6 = objectarrayindexof.lastIndexOf(arr, { "b": "8" })
+        //Return => -1 
+
+        //Example - lastIndexOf method 
+        var res7 = objectarrayindexof.allIndexesOf(arr, { "a": "5", "b": "2" })
+        //Return => [1] 
+        var res8 = objectarrayindexof.allIndexesOf(arr, { "a": "1" })
+        //Return => [0,2] 
+        var res9 = objectarrayindexof.allIndexesOf(arr, { "b": "8" })
+        //Return => [] 
+
+        //Example - nthIndexOf method
+        var res10 = objectarrayindexof.nthIndexOf(arr, { "b": "7" }, 2)
+        //Return => 4
+
+        expect(res1).to.deep.equal(1)
+        expect(res2).to.deep.equal(0)
+        expect(res3).to.deep.equal(-1)
+
+        expect(res4).to.deep.equal(1)
+        expect(res5).to.deep.equal(2)
+        expect(res6).to.deep.equal(-1)
+
+        expect(res7).to.deep.equal([1])
+        expect(res8).to.deep.equal([0, 2])
+        expect(res9).to.deep.equal([])
+
+        expect(res10).to.deep.equal(4)
+
+
+    })
+})

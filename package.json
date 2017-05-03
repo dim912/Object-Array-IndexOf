@@ -1,6 +1,6 @@
 {
   "name": "objectarrayindexof",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get Indexes of an Object in an Object Array",
   "main": "src/index.js",
   "directories": {

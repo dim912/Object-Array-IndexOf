@@ -49,7 +49,7 @@ function allIndexesOf(array, obj, matchedBy) {
  * @param {*} n
  *search the arry for obj. Return the index on which obj is found for nth time
  */
-function nthIndexOf(array, obj, matchedBy, n) {
+function nthIndexOf(array, obj, n, matchedBy) {
     if (n > array.length) return -1
     var count = 0;
     for (var i = 0; i < array.length; i++) {

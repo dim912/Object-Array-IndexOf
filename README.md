@@ -2,7 +2,7 @@
 
 A utility which implements well known indexOf functionality for an object array.
 
-### Features
+### Functions
  
 ```sh
 1) firstIndexOf
@@ -36,33 +36,44 @@ var arr = [
     },
     {
         "b":"7"
+    },
+    {
+        "a":"3",
+        "b":"7"
     }
    ]
  
 //Example - firstIndexOf method
- 
-objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" })) 
+objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" })
 //Return => 1
-objectarrayindexof.firstIndexOf(arr, { "a": "1" })) 
+objectarrayindexof.firstIndexOf(arr, { "a": "1" })
 //Return => 0
-objectarrayindexof.firstIndexOf(arr, { "b": "8" })) 
+objectarrayindexof.firstIndexOf(arr, { "b": "8" }) 
 //Return => -1
 
-//Example - lastIndexOf method
-objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" })) 
-//Return => 1
-objectarrayindexof.lastIndexOf(arr, { "a": "1" })) 
-//Return => 2
-objectarrayindexof.lastIndexOf(arr, { "b": "8" })) 
-//Return => -1
-
-//Example - lastIndexOf method
-objectarrayindexof.allIndexesOf(arr, { "a": "5", "b": "2" })) 
+//Example - allIndexesOf method
+objectarrayindexof.allIndexesOf(arr, { "a": "5", "b": "2" }) 
 //Return => [1]
-objectarrayindexof.allIndexesOf(arr, { "a": "1" })) 
+objectarrayindexof.allIndexesOf(arr, { "a": "1" })
 //Return => [0,2]
-objectarrayindexof.allIndexesOf(arr, { "b": "8" })) 
+objectarrayindexof.allIndexesOf(arr, { "b": "8" }) 
 //Return => []
+
+//Example - lastIndexOf method
+objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" })
+//Return => 1
+objectarrayindexof.lastIndexOf(arr, { "a": "1" })
+//Return => 2
+objectarrayindexof.lastIndexOf(arr, { "b": "8" }) 
+//Return => -1
+
+//Example - nthIndexOf method
+objectarrayindexof.lastIndexOf(arr, { "a": "5", "b": "2" },2)
+//Return => -1
+objectarrayindexof.lastIndexOf(arr, { "b": "2" })
+//Return => 2
+objectarrayindexof.lastIndexOf(arr, { "b": "8" }) 
+//Return => -1
+
+
 ```
-
-
