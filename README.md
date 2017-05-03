@@ -36,8 +36,6 @@ npm install objectarrayindexof
 ```
 ### How to use
 
-## Full match 
-
 ```javascript
 var objectarrayindexof = require('objectarrayindexof')
 //object array
@@ -99,7 +97,6 @@ objectarrayindexof.lastIndexOf(arr, { "b": "8" })
 //Example Selective match
 objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" }, ["b"])
 //Result=> 0 . 
-//this is equalant to  => objectarrayindexof.firstIndexOf(arr, { "a": "1"})
-
+//this is equalant to  => objectarrayindexof.firstIndexOf(arr, { "b": "2"})
 
 ```
