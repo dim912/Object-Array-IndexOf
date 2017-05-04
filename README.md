@@ -1,10 +1,15 @@
 ### About 
 
 A utility which implements well known,
-**firstIndexOf** 
-**allIndexsOf** 
-**lastIndexOf** 
-**nthIndexOf**
+
+- `firstIndexOf`
+
+- `allIndexsOf` 
+
+- `lastIndexOf` 
+
+- `nthIndexOf`
+
 functionality for an object array.
 
 ### Installation
