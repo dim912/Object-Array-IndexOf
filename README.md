@@ -1,16 +1,27 @@
 ### About 
 
-A utility which implements well known indexOf functionality for an object array.
+A utility which implements well known,
+**firstIndexOf** 
+**allIndexsOf** 
+**lastIndexOf** 
+**nthIndexOf**
+functionality for an object array.
 
-### Functions
+### Installation
+
+```sh
+npm install objectarrayindexof
+```
+
+### Syntaxs
  
 ```
-1) firstIndexOf (array, obj, optional : keys )
-2) allIndexesOf (array, obj, optional : keys )
-3) lastIndexOf (array, obj, optional : keys )
-4) nthIndexOf (array, obj, n ,optional : keys )
+1) firstIndexOf (array, obj, optional : matchedBy )
+2) allIndexesOf (array, obj, optional : matchedBy )
+3) lastIndexOf (array, obj, optional : matchedBy )
+4) nthIndexOf (array, obj, n ,optional : matchedBy )
 
-*keys => please refer 'selective match' section below
+* matchedBy => please refer 'selective match' section below
 ```
 
 ### Features
@@ -19,14 +30,9 @@ A utility which implements well known indexOf functionality for an object array.
 All properties of the parameter object, is matched with objects in array to find matching obejects. This is the default behaviour.
 
 ##### Selective match
-Only a set of properties of the parameter object, is matched with objects in array to find matching obejects. This property set could be given in optional 'keys' argument.
+Only a set of properties of the parameter object, is matched with objects in array to find matching obejects. This property set could be given in optional 'matchedBy' array argument.
 
-### Installation
-
-```sh
-npm install objectarrayindexof
-```
-### How To
+### Examples
 
 ```javascript
 var objectarrayindexof = require('objectarrayindexof')
