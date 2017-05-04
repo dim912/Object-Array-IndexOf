@@ -21,14 +21,6 @@ All properties of the parameter object, is matched with objects in array to find
 ##### Selective match
 Only a set of properties of the parameter object, is matched with objects in array to find matching obejects. This property set could be given in optional 'keys' argument.
 
- 
-```sh
-1) firstIndexOf (array, object )
-2) allIndexesOf
-3) lastIndexOf
-4) nthIndexOf
-```
-
 ### Installation
 
 ```sh
@@ -86,10 +78,14 @@ objectarrayindexof.lastIndexOf(arr, { "b": "8" })
 //Return => -1
 
 // nthIndexOf 
+// scan the array for {"b","7"} object.
+// return the index when the object is found for the 2nd time
 objectarrayindexof.nthIndexOf(arr, { "b": "7" }, 2)
 //Return => 4
 
 //Example Selective match
+//match only the property "b" of object { "a": "5", "b": "2" }, with objects in array.
+//return the index, when matched
 objectarrayindexof.firstIndexOf(arr, { "a": "5", "b": "2" }, ["b"])
 //Result=> 0 . 
 //this is equalant to  => objectarrayindexof.firstIndexOf(arr, { "b": "2"})

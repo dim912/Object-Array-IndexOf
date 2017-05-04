@@ -87,6 +87,12 @@ describe("allIndexesOf function", function () {
 
 });
 
+describe("nthIndexOf function", function () {
+    it("with out keys positive", function () {
+        expect(objectarrayindexof.nthIndexOf(arr1, { "b": "2" }, 2)).to.deep.equal(3)
+    });
+});
+
 
 var arr = [
     {
@@ -164,7 +170,6 @@ describe("Documentation", function () {
 
         expect(arr11).to.deep.equal(0)
         expect(arr12).to.deep.equal(0)
-        expect(arr13).to.deep.equal(1)
 
     })
 })

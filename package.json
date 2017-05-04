@@ -1,7 +1,7 @@
 {
   "name": "objectarrayindexof",
-  "version": "1.0.3",
-  "description": "indexOf allIndexsOf implementation for an object array",
+  "version": "1.0.5",
+  "description": "indexOf, allIndexsOf, firstIndexOf, lastIndexOf implementations for an object array",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -14,13 +14,16 @@
     "url": "git+https://github.com/dim912/Object-Array-IndexOf.git"
   },
   "keywords": [
-    "Arrayindexeof",
-    "IndexOfObject",
-    "Object",
-    "Array",
-    "IndexOf",
-    "ObjArr",
-    "ObjArray"
+    "arrayindexeof",
+    "arrayindexeofObject",
+    "indexOfObject",
+    "object",
+    "array",
+    "indexOf",
+    "allIndex",
+    "firstIndexOf",
+    "lastIndexOf",
+    "nthIndexOf"
   ],
   "author": "Dimuthu Senanayaka",
   "license": "MIT",
