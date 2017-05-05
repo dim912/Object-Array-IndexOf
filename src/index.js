@@ -55,7 +55,7 @@ function nthIndexOf(array, obj, n, matchedBy) {
     for (var i = 0; i < array.length; i++) {
         var matched = matchOtoO(array[i], obj, matchedBy)
         if (matched) count++
-        if (count == n) return i
+        if (count === n) return i
     }
     return -1
 }
@@ -64,7 +64,7 @@ function matchOtoO(obj, compareObj, matchedBy) {
     for (var k in compareObj) {
         if (
             ((matchedBy && matchedBy.indexOf(k) > -1) || !matchedBy) &&
-            (!obj.hasOwnProperty(k) || obj[k] != compareObj[k])
+            (!obj.hasOwnProperty(k) || obj[k] !== compareObj[k])
         )
             return false
     }

@@ -43,9 +43,9 @@ var res5 = objectarrayindexof.lastIndexOf(arr, { "a": "1" })
 //Return => 2 
 console.log("res5:" + res5)
 
-var res5 = objectarrayindexof.lastIndexOf(arr, { "b": "8" })
+var res6 = objectarrayindexof.lastIndexOf(arr, { "b": "8" })
 //Return => -1 
-console.log("res5:" + res5)
+console.log("res6:" + res6)
 
 
 //Example - lastIndexOf method 
