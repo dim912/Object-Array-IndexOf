@@ -1,6 +1,11 @@
+
+[![npm](https://img.shields.io/npm/dw/objectarrayindexof.svg)](https://www.npmjs.com/package/objectarrayindexof)
+climate.com/github/dim912/Object-Array-IndexOf)
+
+
 [![Build Status](https://travis-ci.org/dim912/Object-Array-IndexOf.svg?branch=master)](https://travis-ci.org/dim912/Object-Array-IndexOf)
 [![Code Climate](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/gpa.svg)](https://codeclimate.com/github/dim912/Object-Array-IndexOf)
-[![Issue Count](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/issue_count.svg)](https://codeclimate.com/github/dim912/Object-Array-IndexOf)
+[![Issue Count](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/issue_count.svg)](https://code
 
 ### About 
 
