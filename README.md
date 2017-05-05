@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/dim912/Object-Array-IndexOf.svg?branch=master)](https://travis-ci.org/dim912/Object-Array-IndexOf)
 ### About 
 
 A utility which implements well known,
