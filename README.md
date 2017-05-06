@@ -4,8 +4,10 @@
 npm install objectarrayindexof
 ```
 ```javascript
-var u = require('objectarrayindexof')
-var arr = [  {"a":"1","b":"2"}, {"a":"5","b":"2"},{"a":"1","b":"2"},{"b":"7"},{"a":"3","b":"7"}]
+var oai = require('objectarrayindexof')
+var arr = [  {"a":"1","b":"2"}, {"a":"5","b":"2"},
+             {"a":"1","b":"2"},
+             {"b":"7"},{"a":"3","b":"7"}]
  
 oai.firstIndexOf(arr, { "a": "5", "b": "2" }) //Return => 1
 
