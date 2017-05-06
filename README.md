@@ -29,6 +29,7 @@ A utility which implements well known,
 
 functionality for an object array.
 
+[![npm version](https://badge.fury.io/js/objectarrayindexof.svg)](https://badge.fury.io/js/objectarrayindexof)
 [![npm](https://img.shields.io/npm/dw/objectarrayindexof.svg)](https://www.npmjs.com/package/objectarrayindexof)
 [![Build Status](https://travis-ci.org/dim912/Object-Array-IndexOf.svg?branch=master)](https://travis-ci.org/dim912/Object-Array-IndexOf)
 [![Code Climate](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/gpa.svg)](https://codeclimate.com/github/dim912/Object-Array-IndexOf)
