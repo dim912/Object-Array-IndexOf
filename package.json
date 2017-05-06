@@ -1,6 +1,6 @@
 {
   "name": "objectarrayindexof",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "indexOf, allIndexsOf, firstIndexOf, lastIndexOf, nthIndexOf implementations for an object array",
   "main": "src/index.js",
   "directories": {
