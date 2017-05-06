@@ -1,9 +1,20 @@
+### Quick
 
-[![npm](https://img.shields.io/npm/dw/objectarrayindexof.svg)](https://www.npmjs.com/package/objectarrayindexof)
-[![Build Status](https://travis-ci.org/dim912/Object-Array-IndexOf.svg?branch=master)](https://travis-ci.org/dim912/Object-Array-IndexOf)
-[![Code Climate](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/gpa.svg)](https://codeclimate.com/github/dim912/Object-Array-IndexOf)
-[![Issue Count](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/issue_count.svg)
+```sh
+npm install objectarrayindexof
+```
+```javascript
+var u = require('objectarrayindexof')
+var arr = [  {"a":"1","b":"2"}, {"a":"5","b":"2"},{"a":"1","b":"2"},{"b":"7"},{"a":"3","b":"7"}]
+ 
+oai.firstIndexOf(arr, { "a": "5", "b": "2" }) //Return => 1
 
+oai.allIndexesOf(arr, { "a": "1" })//Return => [0,2]
+
+oai.lastIndexOf(arr, { "a": "1" }) //Return => 2
+
+oai.nthIndexOf(arr, { "b": "7" }, 2) //Return => 4
+```
 ### About 
 
 A utility which implements well known,
@@ -18,21 +29,19 @@ A utility which implements well known,
 
 functionality for an object array.
 
-### Installation
+[![npm](https://img.shields.io/npm/dw/objectarrayindexof.svg)](https://www.npmjs.com/package/objectarrayindexof)
+[![Build Status](https://travis-ci.org/dim912/Object-Array-IndexOf.svg?branch=master)](https://travis-ci.org/dim912/Object-Array-IndexOf)
+[![Code Climate](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/gpa.svg)](https://codeclimate.com/github/dim912/Object-Array-IndexOf)
+![Issue Count](https://codeclimate.com/github/dim912/Object-Array-IndexOf/badges/issue_count.svg)
+### Syntax
 
-```sh
-npm install objectarrayindexof
-```
-
-### Syntaxs
- 
 ```
 1) firstIndexOf (array, obj, optional : matchedBy )
 2) allIndexesOf (array, obj, optional : matchedBy )
 3) lastIndexOf (array, obj, optional : matchedBy )
 4) nthIndexOf (array, obj, n ,optional : matchedBy )
 
-* matchedBy => please refer 'selective match' section below
+* matchedBy => Refer 'selective match' section below
 ```
 
 ### Features
