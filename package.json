@@ -1,6 +1,6 @@
 {
-  "name": "objectarrayindexof",
-  "version": "1.0.10",
+  "name": "array-indexof-object",
+  "version": "1.0.11",
   "description": "indexOf, allIndexsOf, firstIndexOf, lastIndexOf, nthIndexOf implementations for an object array",
   "main": "src/index.js",
   "directories": {
@@ -15,12 +15,17 @@
   },
   "keywords": [
     "arrayindexeof",
+    "array-object-indexof",
+    "array-indexofobject",
     "arrayindexeofobject",
     "array-indexeofobject",
     "object-arrayindexeof",
+    "objectarray-indexeof",
+    "objectarrayindexeof",
     "indexofobject",
     "object",
     "array",
+    "array-indexof",
     "indexof",
     "allIndex",
     "firstIndexOf",
